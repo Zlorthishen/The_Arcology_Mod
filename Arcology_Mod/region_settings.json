@@ -1,0 +1,9 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+	"city": {
+	  "shops": { "arcology_tower": 11 }
+	  }
+  }
+]
