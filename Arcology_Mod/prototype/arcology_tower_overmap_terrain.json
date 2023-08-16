@@ -106,6 +106,16 @@
   },
   {
     "type": "overmap_terrain",
+    "id": ["arcology_tower_z1_1", "arcology_tower_z1_2", "arcology_tower_z1_3", "arcology_tower_z1_4"  ],
+    "name": "Barter Tower",
+    "sym": "╚",
+    "color": "i_light_red",
+    "see_cost": 99,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },  
+  
+  {
+    "type": "overmap_terrain",
     "id": [
       "arcology_tower_z0_1_4",
       "arcology_tower_z1_1_4",
