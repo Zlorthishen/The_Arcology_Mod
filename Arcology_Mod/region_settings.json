@@ -3,7 +3,7 @@
     "type": "region_overlay",
     "regions": [ "all" ],
 	"city": {
-	  "shops": [ { "arcology_tower": 100 },{ "commerical_arcology": 100 }]
+	  "shops": { "arcology_tower": 1, "commercial_arcology": 100 }
 	  }
   }
 ]
