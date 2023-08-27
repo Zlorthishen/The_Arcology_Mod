@@ -260,7 +260,7 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [
-      [ "arcology_tower_z1_1", "arcology_tower_z1_2", "arcology_tower_z1_3", "arcology_tower_z1_4" ]
+      [ "arcology_tower_z1_a", "arcology_tower_z1_b", "arcology_tower_z1_c", "arcology_tower_z1_d" ]
     ],
     "weight": 1,
     "object": {
