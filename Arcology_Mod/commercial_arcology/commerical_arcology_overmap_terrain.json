@@ -1,5 +1,19 @@
 [
-
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "commercial_arcology_parking_1",
+      "commercial_arcology_parking_2",
+      "commercial_arcology_parking_3",
+      "commercial_arcology_parking_4",
+      "commercial_arcology_parking_5"
+    ],
+    "name": "parking lot",
+    "color": "dark_gray",
+    "sym": "0",
+    "see_cost": 5,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
   {
     "type": "overmap_terrain",
     "id": [
