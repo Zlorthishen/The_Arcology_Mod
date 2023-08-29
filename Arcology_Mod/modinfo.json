@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A supplement mod that adds very tall Arcology-type buildings and Cyberpunk aesthetic to Bright Nights.",
     "category": "content",
-    "version": "BN version 033901a, update 8/27/2023",
+    "version": "BN version 033901a, update 8/28/2023",
     "dependencies": [ "bn", "Urban_Development" ],
     "conflicts": [ "dda" ]
   }

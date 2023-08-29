@@ -35,9 +35,6 @@
       "]": "t_wood_stairs_up",
       "[": "t_wood_stairs_down",
       "~": "t_water_sh",
-      "2": "t_machinery_light",
-      "3": "t_machinery_heavy",
-      "5": "t_palisade_pulley",
       "6": "t_console",
       "7": "t_console_broken",
       "e": "t_elevator",
@@ -48,22 +45,11 @@
       "W": "t_paper",
       "g": "t_metal_grate_window_with_curtain_open",
       "G": "t_metal_grate_window_with_curtain",
-      "@": "t_door_metal_locked",
-      "c": "t_gates_mech_control_lab",
       "P": "t_palisade_gate"
     },
     "furniture": {
       "q": "f_sink",
-      "Q": "f_toilet",
-      "4": "f_server",
-      "1": "f_small_satelitte_dish",
-      "v": "f_roof_turbine_vent",
-      "B": "f_barricade_road",
-      "b": "f_cardboard_box",
-      "s": "f_sandbag_half",
-      "S": "f_sandbag_wall",
-      "j": "f_cardboard_box",
-      "J": "f_cardboard_wall"
+      "Q": "f_toilet"
     },
     "toilets": { "Q": { "amount": [ 15, 50 ] } }
   }
