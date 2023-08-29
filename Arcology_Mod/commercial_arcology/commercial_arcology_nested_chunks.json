@@ -231,6 +231,7 @@
         "M": "t_linoleum_white",
         "V": "t_linoleum_white",
         "H": "t_linoleum_white",
+        "A": "t_linoleum_white",
         "G": "t_carpet_red",
         "L": "t_carpet_red",
         ".": "t_carpet_red",
@@ -280,6 +281,7 @@
         "Y": "t_linoleum_white",
         "M": "t_linoleum_white",
         "V": "t_linoleum_white",
+        "A": "t_linoleum_white",
         "G": "t_carpet_yellow",
         "L": "t_carpet_yellow",
         "B": "t_carpet_yellow",
@@ -326,8 +328,8 @@
         "i G  L LL",
         "B M  R RR",
         "V ?      ",
-        "MM     AA",
-        "AAY   YMM"
+        "AA     AA",
+        "MMY   YMM"
       ],
       "terrain": {
         " ": "t_linoleum_white",
