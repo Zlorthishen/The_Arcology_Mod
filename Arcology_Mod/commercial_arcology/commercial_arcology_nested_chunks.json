@@ -2,6 +2,31 @@
   {
     "type": "mapgen",
     "method": "json",
+    "nested_mapgen_id": "comm_arc_9x9_store",
+    "object": {
+      "mapgensize": [ 9, 9 ],
+      "place_nested": [
+        {
+          "chunks": [
+            [ "comm_arc_9x9_candy_store", 20 ],
+            [ "comm_arc_9x9_jewellery_store", 20 ],
+            [ "comm_arc_9x9_beauty_store", 20 ],
+            [ "comm_arc_9x9_sporting_store", 20 ],
+            [ "comm_arc_9x9_vitamin_store", 20 ],
+            [ "comm_arc_9x9_cellphone_store", 20 ],
+            [ "comm_arc_9x9_music_store", 20 ],
+            [ "comm_arc_9x9_electronics_store", 20 ],
+            [ "comm_arc_9x9_pizza_store", 20 ]
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "//": "designed for spaces 9x9.",
     "nested_mapgen_id": "comm_arc_9x9_candy_store",
     "object": {
@@ -33,7 +58,7 @@
         "L": "f_table",
         "H": "f_table",
         "G": "f_table",
-        "M": "f_displaycase",
+        "M": "f_counter",
         "w": "f_rack_wood",
         "V": "f_glass_cabinet",
         "Y": "f_trashcan",
@@ -53,6 +78,113 @@
           { "item": "candy_chocolate", "chance": 30, "repeat": [ 0, 4 ] },
           { "item": "toy_store", "chance": 30, "repeat": [ 1, 2 ] }
         ]
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "//": "designed for spaces 9x9.  Jewellery  shop.",
+    "nested_mapgen_id": "comm_arc_9x9_jewellery_store",
+    "object": {
+      "mapgensize": [ 9, 9 ],
+      "rows": [
+        "T VVV    ",
+        "  A      ",
+        "MMM?MM  Y",
+        "HHH   HHH",
+        "y....... ",
+        "w.L.L.L.w",
+        "w.L.L.L.w",
+        "w.L.L.L.w",
+        " ....... "
+      ],
+      "terrain": {
+        " ": "t_linoleum_white",
+        "V": "t_linoleum_white",
+        "A": "t_linoleum_white",
+        "M": "t_linoleum_white",
+        "H": "t_linoleum_white",
+        "y": "t_linoleum_white",
+        "Y": "t_linoleum_white",
+        "w": "t_linoleum_white",
+        "T": "t_linoleum_white",
+        "L": "t_carpet_purple",
+        ".": "t_carpet_purple",
+        "?": "t_console_broken"
+      },
+      "furniture": {
+        "L": "f_table",
+        "H": "f_table",
+        "G": "f_table",
+        "M": "f_counter",
+        "w": "f_rack",
+        "V": "f_glass_cabinet",
+        "Y": "f_trashcan",
+        "A": "f_stool",
+        "T": "f_safe_l",
+        "y": [ "f_indoor_plant", "f_indoor_plant_y" ]
+      },
+      "items": {
+        "T": [ { "item": "jewelry_safe", "chance": 90 } ],
+        "H": [ { "item": "jewelry_front", "chance": 30, "repeat": [ 1, 2 ] } ],
+        "Y": [ { "item": "jewelry_front", "chance": 30, "repeat": [ 1, 2 ] } ],
+        "L": [ { "item": "jewelry_front", "chance": 30, "repeat": [ 0, 4 ] } ],
+        "w": [ { "item": "jewelry_front", "chance": 30, "repeat": [ 0, 4 ] } ],
+        "M": [ { "item": "jewelry_front", "chance": 30, "repeat": [ 0, 4 ] } ],
+        "V": [ { "item": "jewelry_front", "chance": 30, "repeat": [ 0, 4 ] } ]
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "//": "designed for spaces 9x9.  Sporting Goods shop.",
+    "nested_mapgen_id": "comm_arc_9x9_sporting_store",
+    "object": {
+      "mapgensize": [ 9, 9 ],
+      "rows": [
+        "  VVV    ",
+        "  A      ",
+        "MMM?MM  Y",
+        "HHH   HHH",
+        "y....... ",
+        "w.L.L.L.w",
+        "w.L.L.L.w",
+        "w.L.L.L.w",
+        " ....... "
+      ],
+      "terrain": {
+        " ": "t_linoleum_white",
+        "V": "t_linoleum_white",
+        "A": "t_linoleum_white",
+        "M": "t_linoleum_white",
+        "H": "t_linoleum_white",
+        "y": "t_linoleum_white",
+        "Y": "t_linoleum_white",
+        "w": "t_linoleum_white",
+        "L": "t_carpet_green",
+        ".": "t_carpet_green",
+        "?": "t_console_broken"
+      },
+      "furniture": {
+        "L": "f_table",
+        "H": "f_table",
+        "G": "f_table",
+        "M": "f_counter",
+        "w": "f_rack",
+        "V": "f_glass_cabinet",
+        "Y": "f_trashcan",
+        "A": "f_stool",
+        "y": [ "f_indoor_plant", "f_indoor_plant_y" ]
+      },
+      "items": {
+        "H": [ { "item": "allsporting", "chance": 30, "repeat": [ 1, 2 ] } ],
+        "Y": [ { "item": "sports", "chance": 30, "repeat": [ 1, 2 ] } ],
+        "L": [ { "item": "allsporting", "chance": 30, "repeat": [ 0, 4 ] } ],
+        "w": [ { "item": "clothing_sport", "chance": 30, "repeat": [ 0, 4 ] } ],
+        "M": [ { "item": "sports", "chance": 30, "repeat": [ 0, 4 ] } ],
+        "V": [ { "item": "camping", "chance": 30, "repeat": [ 0, 4 ] } ]
       }
     }
   },
@@ -81,6 +213,7 @@
         "M": "t_linoleum_white",
         "H": "t_linoleum_white",
         "y": "t_linoleum_white",
+        "Y": "t_linoleum_white",
         "w": "t_linoleum_white",
         "L": "t_carpet_yellow",
         ".": "t_carpet_yellow",
@@ -90,7 +223,7 @@
         "L": "f_table",
         "H": "f_table",
         "G": "f_table",
-        "M": "f_displaycase",
+        "M": "f_counter",
         "w": "f_rack",
         "V": "f_glass_cabinet",
         "Y": "f_trashcan",
