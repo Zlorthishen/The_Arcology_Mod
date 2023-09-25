@@ -2,6 +2,9 @@
   {
     "type": "overmap_terrain",
     "id": [
+      "commercial_arcology_outer_parking_corner",
+      "commercial_arcology_outer_parking",
+      "commercial_arcology_outer_parking_entry",
       "commercial_arcology_parking_1",
       "commercial_arcology_parking_2",
       "commercial_arcology_parking_3",
@@ -68,22 +71,16 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [
-      "commercial_arcology_z0_1_1",
-      "commercial_arcology_z8_1_1"
-    ],
+    "id": [ "commercial_arcology_z0_1_1", "commercial_arcology_z8_1_1" ],
     "name": "Arcology Tower",
     "sym": "╔",
     "color": "i_light_red",
     "see_cost": 99,
     "flags": [ "SOURCE_PEOPLE" ]
-  }, 
+  },
   {
     "type": "overmap_terrain",
-    "id": [
-      "commercial_arcology_z0_1_4",
-      "commercial_arcology_z8_1_4"
-    ],
+    "id": [ "commercial_arcology_z0_1_4", "commercial_arcology_z8_1_4" ],
     "name": "Arcology Tower",
     "sym": "╚",
     "color": "i_light_red",
@@ -92,10 +89,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [
-      "commercial_arcology_z0_4_1",
-      "commercial_arcology_z8_4_1"
-    ],
+    "id": [ "commercial_arcology_z0_4_1", "commercial_arcology_z8_4_1" ],
     "name": "Arcology Tower",
     "sym": "╗",
     "color": "i_light_red",
@@ -104,10 +98,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [
-      "commercial_arcology_z0_4_4",
-      "commercial_arcology_z8_4_4"
-    ],
+    "id": [ "commercial_arcology_z0_4_4", "commercial_arcology_z8_4_4" ],
     "name": "Arcology Tower",
     "sym": "╝",
     "color": "i_light_red",
@@ -190,12 +181,16 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [
-      "commercial_arcology_z1_a",
-      "commercial_arcology_z1_b",
-      "commercial_arcology_z1_c",
-      "commercial_arcology_z1_d"
-    ],
+    "id": [ "commercial_arcology_z0_a", "commercial_arcology_z0_b", "commercial_arcology_z0_c", "commercial_arcology_z0_d" ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "commercial_arcology_z1_a", "commercial_arcology_z1_b", "commercial_arcology_z1_c", "commercial_arcology_z1_d" ],
     "name": "Arcology Tower",
     "sym": "┼",
     "color": "i_light_red",
