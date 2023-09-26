@@ -25,9 +25,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for spaces 9x9.",
     "nested_mapgen_id": "comm_arc_9x9_candy_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -82,9 +82,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for spaces 9x9.  Jewellery  shop.",
     "nested_mapgen_id": "comm_arc_9x9_jewellery_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -137,9 +137,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for spaces 9x9.  Sporting Goods shop.",
     "nested_mapgen_id": "comm_arc_9x9_sporting_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -189,9 +189,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for spaces 9x9.  Beauty and cosmetics shop.",
     "nested_mapgen_id": "comm_arc_9x9_beauty_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -241,9 +241,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for 9x9 vitamin shop.",
     "nested_mapgen_id": "comm_arc_9x9_vitamin_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -289,9 +289,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for 9x9 cellphone shop.",
     "nested_mapgen_id": "comm_arc_9x9_cellphone_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -340,9 +340,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for 9x9 music shop.",
     "nested_mapgen_id": "comm_arc_9x9_music_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -391,9 +391,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for 9x9 electronics shop.",
     "nested_mapgen_id": "comm_arc_9x9_electronics_store",
     "object": {
       "mapgensize": [ 9, 9 ],
@@ -447,9 +447,9 @@
     }
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
-    "//": "designed for 9x9 pizza shop.",
     "nested_mapgen_id": "comm_arc_9x9_pizza_store",
     "object": {
       "mapgensize": [ 9, 9 ],

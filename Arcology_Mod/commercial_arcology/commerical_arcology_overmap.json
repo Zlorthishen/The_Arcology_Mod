@@ -229,9 +229,9 @@
       { "point": [ 3, 3, 9 ], "overmap": "commercial_arcology_z9_4_4_north" }
     ],
     "rotate": false,
-    "locations": [ "land" ],
+    "locations": [ "land", "forest" ],
     "city_distance": [ 13, -1 ],
-    "occurrences": [ 3, 7 ],
+    "occurrences": [ 2, 5 ],
     "connections": [
       { "point": [ 2, -3, 0 ], "connection": "local_road", "from": [ 2, -2, 0 ] },
       { "point": [ 4, -3, 0 ], "connection": "local_road", "from": [ 4, 2, 0 ] },
