@@ -196,5 +196,14 @@
     "color": "i_light_red",
     "see_cost": 99,
     "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "commercial_arcology_z7_a", "commercial_arcology_z7_b", "commercial_arcology_z7_c", "commercial_arcology_z7_d" ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99,
+    "flags": [ "SOURCE_PEOPLE" ]
   }
 ]
