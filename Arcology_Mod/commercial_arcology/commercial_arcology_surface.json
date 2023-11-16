@@ -154,7 +154,7 @@
         "S": "t_pavement",
         "_": "t_pavement",
         "`": "t_pavement_y",
-        "T": "t_tree_cherry",
+        "T": "t_tree",
         "M": [ "t_manhole_cover", "t_manhole_cover", "t_pavement" ]
       },
       "place_vehicles": [
@@ -166,7 +166,7 @@
           "y": 16,
           "rotation": [ 90, 270 ],
           "chance": 100,
-          "fuel": 5,
+          "fuel": 0,
           "status": 0
         },
         {
@@ -175,7 +175,7 @@
           "y": 18,
           "rotation": [ 90, 270 ],
           "chance": 90,
-          "fuel": 10,
+          "fuel": 0,
           "status": 1
         },
         {

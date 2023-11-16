@@ -306,9 +306,9 @@
       ],
       "palettes": [ "arcology_palette" ],
       "place_monster": [
-        { "group": "FERAL_HUMANS", "x": [ 4, 23 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 },
-        { "group": "FERAL_HUMANS", "x": [ 24, 47 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 },
-        { "group": "FERAL_HUMANS", "x": [ 48, 71 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 }
+        { "group": "FERAL_HUMANS", "x": [ 4, 23 ], "y": [ 4, 23 ], "chance": 90, "repeat": 15 },
+        { "group": "FERAL_HUMANS", "x": [ 24, 47 ], "y": [ 4, 23 ], "chance": 90, "repeat": 15 },
+        { "group": "FERAL_HUMANS", "x": [ 48, 71 ], "y": [ 4, 23 ], "chance": 90, "repeat": 15 }
       ]
     }
   },
@@ -347,11 +347,6 @@
         ".##                                ^^   ----------------   ^^           ........................"
       ],
       "palettes": [ "arcology_palette" ],
-      "place_monster": [
-        { "group": "FERAL_HUMANS", "x": [ 4, 23 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 },
-        { "group": "FERAL_HUMANS", "x": [ 24, 47 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 },
-        { "group": "FERAL_HUMANS", "x": [ 48, 71 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 }
-      ],
       "nested": { "1": { "chunks": [ "comm_arc_9x9_store" ] } }
     }
   },
@@ -390,11 +385,6 @@
         ".##                                ^^                      ^^                         -........."
       ],
       "palettes": [ "arcology_palette" ],
-      "place_monster": [
-        { "group": "FERAL_HUMANS", "x": [ 4, 23 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 },
-        { "group": "FERAL_HUMANS", "x": [ 24, 47 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 },
-        { "group": "FERAL_HUMANS", "x": [ 48, 71 ], "y": [ 4, 23 ], "chance": 90, "repeat": 5 }
-      ],
       "nested": { "1": { "chunks": [ "comm_arc_9x9_store" ] } }
     }
   },
