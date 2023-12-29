@@ -8,6 +8,10 @@
       ":": "t_sidewalk",
       "'": "t_thconc_floor",
       "`": "t_pavement_y",
+      "u": "t_sidewalk_ramp_up_low",
+      "U": "t_sidewalk_ramp_up_high",
+      "D": "t_sidewalk_ramp_down_low",
+      "d": "t_sidewalk_ramp_down_high",	  
       ",": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass_long" ],
       "!": "t_door_metal_c",
       "#": "t_strconc_wall",
@@ -37,12 +41,22 @@
       "G": "t_metal_grate_window_with_curtain",
       "h": "t_reinforced_door_glass_c",
       "H": "t_reinforced_glass",
+      "@": "t_door_metal_locked",
+      "c": "t_gates_mech_control_lab",
       "P": "t_palisade_gate"
     },
     "furniture": {
-      "$": "f_indoor_plant",
       "q": "f_sink",
-      "Q": "f_toilet"
+      "Q": "f_toilet",
+      "4": "f_server",
+      "1": "f_small_satelitte_dish",
+      "v": "f_roof_turbine_vent",
+      "B": "f_barricade_road",
+      "b": "f_cardboard_box",
+      "s": "f_sandbag_half",
+      "S": "f_sandbag_wall",
+      "j": "f_cardboard_box",
+      "J": "f_cardboard_wall"
     },
     "toilets": { "Q": { "amount": [ 15, 50 ] } }
   }
