@@ -1,0 +1,190 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "wasp_hive_arcology_outer_parking_corner",
+      "wasp_hive_arcology_outer_parking",
+      "wasp_hive_arcology_outer_parking_entry",
+      "wasp_hive_arcology_parking_1",
+      "wasp_hive_arcology_parking_2",
+      "wasp_hive_arcology_parking_3",
+      "wasp_hive_arcology_parking_4",
+      "wasp_hive_arcology_parking_5"
+    ],
+    "name": "parking lot",
+    "color": "dark_gray",
+    "sym": "0",
+    "see_cost": 5,
+    "mondensity": 1,
+    "spawns": { "group": "GROUP_WASP_FORAGER", "population": [ 3, 7 ], "chance": 100 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "wasp_hive_arcology_z9_1_1",
+      "wasp_hive_arcology_z9_1_2",
+      "wasp_hive_arcology_z9_1_3",
+      "wasp_hive_arcology_z9_1_4",
+      "wasp_hive_arcology_z9_2_1",
+      "wasp_hive_arcology_z9_2_2",
+      "wasp_hive_arcology_z9_2_3",
+      "wasp_hive_arcology_z9_2_4",
+      "wasp_hive_arcology_z9_3_1",
+      "wasp_hive_arcology_z9_3_2",
+      "wasp_hive_arcology_z9_3_3",
+      "wasp_hive_arcology_z9_3_4",
+      "wasp_hive_arcology_z9_4_1",
+      "wasp_hive_arcology_z9_4_2",
+      "wasp_hive_arcology_z9_4_3",
+      "wasp_hive_arcology_z9_4_4"
+    ],
+    "name": "Arcology Tower",
+    "sym": ".",
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "wasp_hive_arcology_z-1_1_1",
+      "wasp_hive_arcology_z-1_1_2",
+      "wasp_hive_arcology_z-1_1_3",
+      "wasp_hive_arcology_z-1_1_4",
+      "wasp_hive_arcology_z-1_2_1",
+      "wasp_hive_arcology_z-1_2_2",
+      "wasp_hive_arcology_z-1_2_3",
+      "wasp_hive_arcology_z-1_2_4",
+      "wasp_hive_arcology_z-1_3_1",
+      "wasp_hive_arcology_z-1_3_2",
+      "wasp_hive_arcology_z-1_3_3",
+      "wasp_hive_arcology_z-1_3_4",
+      "wasp_hive_arcology_z-1_4_1",
+      "wasp_hive_arcology_z-1_4_2",
+      "wasp_hive_arcology_z-1_4_3",
+      "wasp_hive_arcology_z-1_4_4"
+    ],
+    "name": "Underground Level",
+    "sym": "╬",
+    "color": "i_light_red",
+    "see_cost": 99,
+    "mondensity": 2,
+    "spawns": { "group": "GROUP_ROACH", "population": [ 11, 13 ], "chance": 100 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_1_1", "wasp_hive_arcology_z8_1_1" ],
+    "name": "Arcology Tower",
+    "sym": "╔",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_1_4", "wasp_hive_arcology_z8_1_4" ],
+    "name": "Arcology Tower",
+    "sym": "╚",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_4_1", "wasp_hive_arcology_z8_4_1" ],
+    "name": "Arcology Tower",
+    "sym": "╗",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_4_4", "wasp_hive_arcology_z8_4_4" ],
+    "name": "Arcology Tower",
+    "sym": "╝",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_1_2", "wasp_hive_arcology_z0_1_3", "wasp_hive_arcology_z8_1_2", "wasp_hive_arcology_z8_1_3" ],
+    "name": "Arcology Tower",
+    "sym": "╟",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_4_2", "wasp_hive_arcology_z0_4_3", "wasp_hive_arcology_z8_4_2", "wasp_hive_arcology_z8_4_3" ],
+    "name": "Arcology Tower",
+    "sym": "╢",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_2_4", "wasp_hive_arcology_z0_3_4", "wasp_hive_arcology_z8_2_4", "wasp_hive_arcology_z8_3_4" ],
+    "name": "Arcology Tower",
+    "sym": "╧",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_2_1", "wasp_hive_arcology_z0_3_1", "wasp_hive_arcology_z8_2_1", "wasp_hive_arcology_z8_3_1" ],
+    "name": "Arcology Tower",
+    "sym": "╤",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "wasp_hive_arcology_z0_2_2",
+      "wasp_hive_arcology_z0_2_3",
+      "wasp_hive_arcology_z0_3_2",
+      "wasp_hive_arcology_z0_3_3",
+      "wasp_hive_arcology_z8_2_2",
+      "wasp_hive_arcology_z8_2_3",
+      "wasp_hive_arcology_z8_3_2",
+      "wasp_hive_arcology_z8_3_3"
+    ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z0_a", "wasp_hive_arcology_z0_b", "wasp_hive_arcology_z0_c", "wasp_hive_arcology_z0_d" ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z1_a", "wasp_hive_arcology_z1_b", "wasp_hive_arcology_z1_c", "wasp_hive_arcology_z1_d" ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99,
+    "mondensity": 2,
+    "spawns": { "group": "GROUP_WASP_GUARD", "population": [ 5, 7 ], "chance": 100 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z2_a", "wasp_hive_arcology_z2_b", "wasp_hive_arcology_z2_c", "wasp_hive_arcology_z2_d" ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99,
+    "mondensity": 2,
+    "spawns": { "group": "GROUP_WASP_GUARD", "population": [ 5, 7 ], "chance": 100 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "wasp_hive_arcology_z7_a", "wasp_hive_arcology_z7_b", "wasp_hive_arcology_z7_c", "wasp_hive_arcology_z7_d" ],
+    "name": "Arcology Tower",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99
+  }
+]
