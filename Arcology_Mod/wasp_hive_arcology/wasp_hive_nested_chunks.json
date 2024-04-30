@@ -71,14 +71,14 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "wasp_hive_gibs",
-    "weight": 80,
+    "weight": 50,
     "object": { "mapgensize": [ 1, 1 ], "place_loot": [ { "group": "bug_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 } ] }
   },
   {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "wasp_hive_gibs",
-    "weight": 80,
+    "weight": 50,
     "object": {
       "mapgensize": [ 1, 1 ],
       "place_loot": [ { "group": "vertebrate_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 } ]
@@ -88,13 +88,22 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "wasp_hive_gibs",
-    "weight": 80,
+    "weight": 50,
     "object": {
       "mapgensize": [ 1, 1 ],
       "place_loot": [
         { "group": "human_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 },
         { "group": "wasp_lair", "x": 0, "y": 0, "repeat": [ 0, 1 ], "chance": 25 }
       ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_gibs",
+    "weight": 150,
+    "object": {
+      "mapgensize": [ 1, 1 ]
     }
   },
   {
