@@ -40,6 +40,76 @@
     "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 100,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_fields": [ { "field": "fd_blood", "x": 0, "y": 0, "intensity": 1, "repeat": [ 0, 3 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 100,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_fields": [ { "field": "fd_blood_insect", "x": 0, "y": 0, "intensity": 1, "repeat": [ 0, 3 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 300,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_fields": [ { "field": "fd_blood_invertebrate", "x": 0, "y": 0, "intensity": 1, "repeat": [ 0, 3 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 500,
+    "object": { "mapgensize": [ 1, 1 ], "place_loot": [ { "group": "bug_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 200,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_loot": [ { "group": "vertebrate_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 200,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_loot": [
+        { "group": "human_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 },
+        { "group": "wasp_lair", "x": 0, "y": 0, "repeat": [ 0, 1 ], "chance": 25 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "wasp_hive_refuse",
+    "weight": 1500,
+    "object": {
+      "mapgensize": [ 1, 1 ]
+    }
+  },
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
     "nested_mapgen_id": "wasp_hive_gibs",
     "weight": 100,
     "object": {

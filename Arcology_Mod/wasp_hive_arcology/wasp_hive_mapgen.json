@@ -131,6 +131,7 @@
         "################################################################################################"
       ],
       "palettes": [ "arcology_palette" ],
+      "nested": { "'": { "chunks": [ "wasp_hive_refuse" ] }  },  
       "terrain": { "'": "t_pavement", "N": "t_machinery_heavy", "n": "t_machinery_light" },
       "liquids": { "T": { "liquid": "water_sewage", "amount": [ 1, 25 ] }, "t": { "liquid": "water_sewage", "amount": [ 2, 5 ] } },
       "furniture": { "V": "f_vending_o", "T": "f_standing_tank", "Y": "f_washer", "y": "f_dryer" }
@@ -262,6 +263,7 @@
         "::#::#::#::#::#::#::#::#::#::#::#::#::#::#::#::::::#::#::#::#::#::#::#::#::#::#::#::#::#::#::#::",
         "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
       ],
+      "nested": { " ": { "chunks": [ "wasp_hive_refuse" ] }  },  
       "palettes": [ "arcology_palette" ]
     }
   },
@@ -300,10 +302,13 @@
         ":##  ^     ^^          ^^          ^^                      ^^          ^                        "
       ],
       "palettes": [ "arcology_palette" ],
+
+      "nested": { " ": { "chunks": [ "wasp_hive_refuse" ] }  },  
       "place_monster": [
-        { "group": "FERAL_HUMANS", "x": [ 4, 23 ], "y": [ 4, 23 ], "chance": 90, "repeat": 15 },
-        { "group": "FERAL_HUMANS", "x": [ 24, 47 ], "y": [ 4, 23 ], "chance": 90, "repeat": 15 },
-        { "group": "FERAL_HUMANS", "x": [ 48, 71 ], "y": [ 4, 23 ], "chance": 90, "repeat": 15 }
+        { "group": "GROUP_WASP_GUARD", "x": [ 4, 23 ], "y": [ 4, 23 ], "chance": 90, "repeat": 10 },
+        { "group": "GROUP_WASP_GUARD", "x": [ 24, 47 ], "y": [ 4, 23 ], "chance": 90, "repeat": 10 },
+        { "group": "GROUP_WASP_GUARD", "x": [ 48, 71 ], "y": [ 4, 23 ], "chance": 90, "repeat": 10 },
+        { "monster": "mon_wasp_guard", "x": [ 72, 95 ], "y": [ 0, 23 ], "chance": 90, "repeat": 20 }
       ]
     }
   },
@@ -316,37 +321,35 @@
       "fill_ter": "t_thconc_floor",
       "//": "--------| first floor prototype |------------------------------------------------------------------------------",
       "rows": [
-        "........................................................................           ^^   -.......",
-        "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..                -.......",
-        ".##################G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G#                -.......",
-        "..#<                                                                                    -.......",
-        "..#<                                                                                    -.......",
-        ".##                                                                                     -.......",
-        "..#        ########+##$  $########+#########+##$  $########+#########+##                -.......",
-        "..#>>      #1        #$  $#1        #1        #$  $#1        #1        #                -.......",
-        ".######    #         #$  $#         #         #$  $#         #         #                -.......",
-        "..#Q q#    #         ##  ##         #         ##  ##         #         #   <#+++#       -.......",
-        "..#   +    #         #$  $#         #         #$  $#         #         #   ##eee+       -....xxx",
-        ".######    #         #$  $#         #         #$  $#         #         #^  #Eeee+       -..xxxOx",
-        "..#Q q#    #         #$  $#         #         #$  $#         #         #^  ##eee+       -..xOxOx",
+        "........................................................................           ^^   -.....x.",
+        "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..                -....xxx",
+        ".##################G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G#                -...xxOx",
+        "..#<                                                                                    -..xxOxO",
+        "..#<                                                                                    -.xxOxOx",
+        ".##                                                                                     -.xOxOxO",
+        "..#        ########+##$  $########+#########+##$  $########+#########+##                -xxxOxOx",
+        "..#>>      #1        #$  $#1        #1        #$  $#1        #1        #                -.xOxOxO",
+        ".######    #         #$  $#         #         #$  $#         #         #                -.xxOxOx",
+        "..#Q q#    #         ##  ##         #         ##  ##         #         #   <#+++#       -xxOxOxO",
+        "..#   +    #         #$  $#         #         #$  $#         #         #   ##eee+       -.xxOxOx",
+        ".######    #         #$  $#         #         #$  $#         #         #^  #Eeee+       -.xOxOxO",
+        "..#Q q#    #         #$  $#         #         #$  $#         #         #^  ##eee+       -xxxOxOx",
         "..#   +    #         ##  ##         #         ##  ##         #         #   >#+++#      --.xxxOxO",
-        ".######    #         #$  $#         #         #$  $#         #         #              --.xxOxOxx",
+        ".######    #         #$  $#         #         #$  $#         #         #              --.xxOxxOx",
         "..#Q q#    #         #$  $#         #         #$  $#         #         #             --.xxOxOxxO",
         "..#   +    #HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#--------------.xxOxOxOxx",
-        ".######                                                                 ..............xxOxOxOxxO",
-        "..#Q q#                                                                 .............xxOxOxOxOxx",
-        "..#   +                                                                 ............xxOxOxOxOxxO",
-        ".######                                                                 ...........xxOxOxOxOxOxx",
-        "..#                                                                     ..........xxOxOxOxOxOxOx",
-        "..G                                                                     ..........xOxOxOxOxOxOxx",
-        ".##                                ^^   ----------------   ^^           ..........xxOxOxOxOxOxOx"
+        ".######                                                                 .....x..x..x..xxOxOxOxxO",
+        "..#Q q#                                                                 ...xxxxxxxxxxxxOxOxOxOxx",
+        "..#   +                                                                 ..xxOxOxOxOxOxOxOxOxOxxO",
+        ".######                                                                 .xxxxOxOxOxOxOxOxOxOxOxx",
+        "..#                                                                     xxOxOxOxOxOxOxOxOxOxOxOx",
+        "..G                                                                     .xxOxOxOxOxOxOxOxOxOxOxx",
+        ".##                                ^^   ----------------   ^^           xxOxOxOxOxOxOxOxOxOxOxOx"
       ],
       "palettes": [ "arcology_palette" ],
-    "terrain": {
-      "x": "t_paper_brood"
-	},
+      "terrain": { "x": "t_paper_brood" },
       "place_monster": [ { "monster": "mon_wasp_guard", "x": [ 48, 71 ], "y": [ 0, 23 ], "chance": 90, "repeat": 5 } ],
-      "nested": { "1": { "chunks": [ "wasp_hive_arcology_9x9_store" ] },  "O": { "chunks": [ "wasp_hive_brood" ] } }
+      "nested": { "1": { "chunks": [ "wasp_hive_arcology_9x9_store" ] }, "O": { "chunks": [ "wasp_hive_brood" ] }, " ": { "chunks": [ "wasp_hive_refuse" ] }  }
     }
   },
   {
@@ -359,38 +362,37 @@
       "//": "--------| first floor prototype |------------------------------------------------------------------------------",
       "rows": [
         "........................................................................           ^^   -.......",
-        "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..                -.......",
-        ".##################G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G#                -.......",
-        "..#<                                                                                    -.......",
-        "..#<                                                                                    -.......",
-        ".##                                                                                     -.......",
-        "..#        ########+##$  $########+#########+##$  $########+#########+##                -.......",
-        "..#>>      #1        #$  $#1        #1        #$  $#1        #1        #                -.......",
-        ".######    #         #$  $#         #         #$  $#         #         #                -.......",
-        "..#Q q#    #         ##  ##         #         ##  ##         #         #   <#+++#       -.......",
-        "..#   +    #         #$  $#         #         #$  $#         #         #   ##eee+       -.......",
-        ".######    #         #$  $#         #         #$  $#         #         #^  #Eeee+       -....xxx",
-        "..#Q q#    #         #$  $#         #         #$  $#         #         #^  ##eee+       -..xxxxx",
+        "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..                -....xxx",
+        ".##################G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G#                -...xxxx",
+        "..#<                                                                                    -..xxxxx",
+        "..#<                                                                                    -.xxxxxx",
+        ".##                                                                                     -.xxxxxx",
+        "..#        ########+##$  $########+#########+##$  $########+#########+##                -.xxxxxx",
+        "..#>>      #1        #$  $#1        #1        #$  $#1        #1        #                -.xxxxxx",
+        ".######    #         #$  $#         #         #$  $#         #         #                -.xxxxxx",
+        "..#Q q#    #         ##  ##         #         ##  ##         #         #   <#+++#       -.xxxxxx",
+        "..#   +    #         #$  $#         #         #$  $#         #         #   ##eee+       -.xxxxxx",
+        ".######    #         #$  $#         #         #$  $#         #         #^  #Eeee+       -.xxxxxx",
+        "..#Q q#    #         #$  $#         #         #$  $#         #         #^  ##eee+       -.xxxxxx",
         "..#   +    #         ##  ##         #         ##  ##         #         #   >#+++#      --xxxxxxx",
-        ".######    #         #$  $#         #         #$  $#         #         #              --xxxXxxxx",
+        ".######    #         #$  $#         #         #$  $#         #         #              --xxxxxxxx",
         "..#Q q#    #         #$  $#         #         #$  $#         #         #             --xxxxxxxxx",
-        "..#   +    #HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#--------------xxxxxxXxxx",
+        "..#   +    #HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#--------------xxxxxxxxxx",
         ".######                                                                 .............xxxxxxxxxxx",
-        "..#Q q#                                                                 .............xxxxxxxxxxx",
-        "..#   +                                                                 ............xxxxXxxxxXxx",
-        ".######                                                                 ............xxxxxxxxxxxx",
-        "..#                                                                     ...........xxxxxxxxxxxxx",
-        "..G                                                                     ...........xxxxxxxXxxxxX",
-        ".##                                ^^   ----------------   ^^           ...........xxxxxxxxxxxxX"
+        "..#Q q#                                                                 ....xxxxxxxxxxxxxxxxxxxx",
+        "..#   +                                                                 ...xxxxxxxxxxxxxxxxxxxxx",
+        ".######                                                                 ..xxxxxxxxxxxxxxxxxxxxxx",
+        "..#                                                                     .xxxxxxxxxxxxxxxxxxxxxxx",
+        "..G                                                                     .xxxxxxxxxxxxxxxxxxxxxxX",
+        ".##                                ^^   ----------------   ^^           .xxxxxxxxxxxxxxxxxxxxxXX"
       ],
       "palettes": [ "arcology_palette" ],
-
-    "terrain": {
-      "x": "t_floor_paper_noroof",
-      "X": "t_paper_hard"
-	},
-      "place_monster": [ { "monster": "mon_wasp_guard", "x": [ 72, 95 ], "y": [ 0, 23 ], "chance": 90, "repeat": 7 } ],  
-      "nested": { "1": { "chunks": [ "wasp_hive_arcology_9x9_store" ] },  "x": { "chunks": [ "wasp_hive_gibs" ] } }
+      "terrain": {
+        "x": [ [ "t_floor_paper_noroof", 10 ], [ "t_paper_hard", 1 ] ],
+        "X": [ [ "t_floor_paper_noroof", 1 ], [ "t_paper_hard", 10 ] ]
+      },
+      "place_monster": [ { "monster": "mon_wasp_guard", "x": [ 72, 95 ], "y": [ 0, 23 ], "chance": 90, "repeat": 7 } ],
+      "nested": { "1": { "chunks": [ "wasp_hive_arcology_9x9_store" ] }, "x": { "chunks": [ "wasp_hive_gibs" ] }, " ": { "chunks": [ "wasp_hive_refuse" ] } }
     }
   },
   {
@@ -417,9 +419,9 @@
         "..#Q q#    #         #$  $#         #         #$  $#         #         #^  ##eee+              x",
         "..#   +    #         ##  ##         #         ##  ##         #         #   >#+++#            xxx",
         ".######    #         #$  $#         #         #$  $#         #         #              -----xxxxx",
-        "..#Q q#    #         #$  $#         #         #$  $#         #         #              -..xxxxxxx",
-        "..#   +    #HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#              -.xxxxxxxx",
-        ".######                                                                               -xxxxxxxxx",
+        "..#Q q#    #         #$  $#         #         #$  $#         #         #              -...xxxxxx",
+        "..#   +    #HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#$  $#HHHhhhHHH#HHHhhhHHH#              -..xxxxxxx",
+        ".######                                                                               -..xxxxxxx",
         "..#Q q#                                                                               xxxxxxxxxx",
         "..#   +                                                                               xxxxxxxxxx",
         ".######                                                                              xxxxxxxxxxx",
@@ -428,12 +430,13 @@
         ".##                                ^^                      ^^                       xxxxxxxxxxXX"
       ],
       "palettes": [ "arcology_palette" ],
-    "terrain": {
-      "x": "t_floor_paper_noroof",
-      "X": "t_paper_hard"
-	},	  
-      "place_monster": [ { "monster": "mon_wasp_guard", "x": [ 72, 95 ], "y": [ 0, 23 ], "chance": 90, "repeat": 3 } ],  
-      "nested": { "1": { "chunks": [ "wasp_hive_arcology_9x9_store" ] } }
+      "terrain": {
+        "x": [ [ "t_floor_paper_noroof", 10 ], [ "t_paper_hard", 1 ] ],
+        "X": [ [ "t_floor_paper_noroof", 1 ], [ "t_paper_hard", 3 ] ]
+      },
+      "place_monster": [ { "monster": "mon_wasp_guard", "x": [ 72, 95 ], "y": [ 0, 23 ], "chance": 90, "repeat": 3 } ],
+      "nested": { "1": { "chunks": [ "wasp_hive_arcology_9x9_store" ] }, "x": { "chunks": [ "wasp_hive_gibs" ] }, " ": { "chunks": [ "wasp_hive_refuse" ] } }
+	  
     }
   },
   {
@@ -563,9 +566,7 @@
         "================================================================================================"
       ],
       "palettes": [ "arcology_palette" ],
-    "terrain": {
-		"x": "t_floor_paper_noroof",
-      "X": "t_paper_hard" }
+      "terrain": { "x": "t_floor_paper_noroof", "X": "t_paper_hard" }
     }
   },
   {
