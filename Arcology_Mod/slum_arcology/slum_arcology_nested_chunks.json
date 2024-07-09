@@ -1,5 +1,7 @@
 [
+
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "slum_arcology_9x9_store",
@@ -8,13 +10,13 @@
       "place_nested": [
         {
           "chunks": [
-            [ "slum_arcology_9x9_candy_store", 20 ],
-            [ "slum_arcology_9x9_jewellery_store", 20 ],
-            [ "slum_arcology_9x9_beauty_store", 20 ],
-            [ "slum_arcology_9x9_sporting_store", 20 ],
-            [ "slum_arcology_9x9_vitamin_store", 20 ],
-            [ "slum_arcology_9x9_cellphone_store", 20 ],
-            [ "slum_arcology_9x9_music_store", 20 ],
+            [ "slum_arcology_9x9_candy_store", 10 ],
+            [ "slum_arcology_9x9_jewellery_store", 5 ],
+            [ "slum_arcology_9x9_beauty_store", 25 ],
+            [ "slum_arcology_9x9_sporting_store", 25 ],
+            [ "slum_arcology_9x9_vitamin_store", 25 ],
+            [ "slum_arcology_9x9_cellphone_store", 25 ],
+            [ "slum_arcology_9x9_music_store", 10 ],
             [ "slum_arcology_9x9_electronics_store", 20 ],
             [ "slum_arcology_9x9_pizza_store", 20 ]
           ],
