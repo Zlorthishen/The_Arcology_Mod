@@ -1,7 +1,4 @@
 [
-
-
-
   {
     "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
@@ -10,25 +7,58 @@
     "object": {
       "mapgensize": [ 6, 6 ],
       "rows": [
-        "││+│││",  
-        "     │",
+        "││+│││",
+        "    L│",
         "     │",
         "   │││",
         "   + │",
         "   │;│"
       ],
-      "terrain": {
-        "│": "t_wall_w",
-
-      "+": "t_door_metal_c"		
-      },
-
-      "toilets": { ";": {  } }	  
+      "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
+      "furniture": { "L": "f_table" },
+      "toilets": { ";": {  } }
     }
   },
-
-
-
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x6_inner_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "││+│││",
+        "    L│",
+        "     │",
+        "   │││",
+        "   + │",
+        "   │;│"
+      ],
+      "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_floor", "L": "t_floor", ";": "t_floor" },
+      "furniture": { "L": "f_table" },
+      "toilets": { ";": {  } }
+    }
+  },
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x6_inner_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "││+│││",
+        "    L│",
+        "     │",
+        "   │││",
+        "   + │",
+        "   │;│"
+      ],
+      "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_gray", "L": "t_linoleum_gray", ";": "t_linoleum_gray" },
+      "furniture": { "L": "f_table" },
+      "toilets": { ";": {  } }
+    }
+  },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
@@ -36,27 +66,59 @@
     "nested_mapgen_id": "slum_arcology_6x6_outer_rooms",
     "object": {
       "mapgensize": [ 6, 6 ],
-      "rows": [ 
+      "rows": [
         "     │",
         "     │",
         "   │││",
         "   + │",
-        "   │;│",
-        "││+│││" 
+        "L  │;│",
+        "││+│││"
       ],
-      "terrain": {
-        "│": "t_wall_w",
-
-      "+": "t_door_metal_c"		
-      },
-
-      "toilets": { ";": {  } }	  
+      "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
+      "furniture": { "L": "f_table" },
+      "toilets": { ";": {  } }
     }
   },
-
-
-
-
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x6_outer_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "     │",
+        "     │",
+        "   │││",
+        "   + │",
+        "L  │;│",
+        "││+│││"
+      ],
+      "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_gray", "L": "t_linoleum_gray", ";": "t_linoleum_gray" },
+      "furniture": { "L": "f_table" },
+      "toilets": { ";": {  } }
+    }
+  },
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x6_outer_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "     │",
+        "     │",
+        "   │││",
+        "   + │",
+        "L  │;│",
+        "││+│││"
+      ],
+      "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_floor", "L": "t_floor", ";": "t_floor" },
+      "furniture": { "L": "f_table" },
+      "toilets": { ";": {  } }
+    }
+  },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
