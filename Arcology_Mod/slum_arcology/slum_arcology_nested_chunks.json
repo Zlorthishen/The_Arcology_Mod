@@ -3,6 +3,22 @@
     "//": "--------------------------------------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
+    "nested_mapgen_id": "slum_arcology_3x3_space",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "rows": [
+        "   ",
+        "C  ",
+        "TC "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "T": "f_table", "C": "f_chair" }
+    }
+  },
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
     "nested_mapgen_id": "slum_arcology_6x6_inner_rooms",
     "object": {
       "mapgensize": [ 6, 6 ],
@@ -14,6 +30,7 @@
         "   + │",
         "   │;│"
       ],
+      "place_nested": [ { "chunks": [  "slum_arcology_3x3_space" ], "x": 0, "y": 2  } ],
       "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
       "furniture": { "L": "f_table" },
       "toilets": { ";": {  } }
@@ -34,6 +51,7 @@
         "   + │",
         "   │;│"
       ],
+      "place_nested": [ { "chunks": [  "slum_arcology_3x3_space" ], "x": 0, "y": 2 } ],
       "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_floor", "L": "t_floor", ";": "t_floor" },
       "furniture": { "L": "f_table" },
       "toilets": { ";": {  } }
@@ -54,6 +72,7 @@
         "   + │",
         "   │;│"
       ],
+      "place_nested": [ { "chunks": [  "slum_arcology_3x3_space" ], "x": 0, "y": 2 } ],
       "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_gray", "L": "t_linoleum_gray", ";": "t_linoleum_gray" },
       "furniture": { "L": "f_table" },
       "toilets": { ";": {  } }
@@ -74,6 +93,7 @@
         "L  │;│",
         "││+│││"
       ],
+      "place_nested": [ { "chunks": [  "slum_arcology_3x3_space" ], "x": 0, "y": 2 } ],
       "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
       "furniture": { "L": "f_table" },
       "toilets": { ";": {  } }
@@ -94,6 +114,7 @@
         "L  │;│",
         "││+│││"
       ],
+      "place_nested": [ { "chunks": [  "slum_arcology_3x3_space" ], "x": 0, "y": 2 } ],
       "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_linoleum_gray", "L": "t_linoleum_gray", ";": "t_linoleum_gray" },
       "furniture": { "L": "f_table" },
       "toilets": { ";": {  } }
@@ -114,6 +135,7 @@
         "L  │;│",
         "││+│││"
       ],
+      "place_nested": [ { "chunks": [  "slum_arcology_3x3_space" ], "x": 0, "y": 2 } ],
       "terrain": { "│": "t_wall_w", "+": "t_door_metal_c", " ": "t_floor", "L": "t_floor", ";": "t_floor" },
       "furniture": { "L": "f_table" },
       "toilets": { ";": {  } }
