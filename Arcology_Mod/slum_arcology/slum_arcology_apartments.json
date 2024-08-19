@@ -68,6 +68,7 @@
         "DB"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	  
       "furniture": { "B": "f_bed", "D": "f_beaded_door" }
     }
   },
@@ -83,6 +84,7 @@
         "DB"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	  
       "furniture": { "B": "f_makeshift_bed", "D": "f_beaded_door" }
     }
   },
@@ -98,6 +100,7 @@
         " b"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }, "b": { "item": "bedroom", "chance": 30, "repeat": [ 1, 2 ] }  },	  
       "furniture": { "B": "f_floor_mattress", "b": "f_makeshift_bed" }
     }
   },
@@ -113,6 +116,7 @@
         " b"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }, "b": { "item": "bedroom", "chance": 30, "repeat": [ 1, 2 ] }  },	
       "furniture": { "B": "f_floor_mattress" , "b": "f_makeshift_bed" }
     }
   },
@@ -128,6 +132,7 @@
         " B"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	
       "furniture": { "B": "f_bed" }
     }
   },
@@ -143,6 +148,7 @@
         "B "
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	
       "furniture": { "B": "f_floor_mattress" }
     }
   },
@@ -158,6 +164,7 @@
         "B "
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	
       "furniture": { "B": "f_bed" }
     }
   },
@@ -173,6 +180,7 @@
         "BB"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	
       "furniture": { "B": "f_bunkbed" }
     }
   },
@@ -188,6 +196,7 @@
         "DB"
       ],
       "terrain": { " ": "t_null" },
+      "items": { "B": { "item": "bedroom", "chance": 70, "repeat": [ 1, 2 ] }  },	
       "furniture": { "B": "f_bunkbed" , "D": "f_beaded_door" }
     }
   },
