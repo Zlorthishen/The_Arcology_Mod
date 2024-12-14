@@ -4,10 +4,10 @@
     "id": "arcology",
     "name": "<color_light_blue>The Arcology Mod</color>",
     "authors": [ "Zlorthishen" ],
-    "description": "A supplement mod that adds very tall Arcology-type buildings with a Cyberpunk, Judge Dreed Megacity 01 aesthetic to Cataclysm - Bright Nights.",
+    "description": "A supplement mod that adds very tall Arcology-type buildings with a Cyberpunk, Judge Dredd Megacity 01 aesthetic to Cataclysm - Bright Nights.",
     "category": "content",
     "dependencies": [ "bn" ],
-    "version": "BN version 5865454, update 11/27/2024",
+    "version": "BN version D3E0A66, update 12/13/2024",
     "conflicts": [ "dda" ]
   }
 ]

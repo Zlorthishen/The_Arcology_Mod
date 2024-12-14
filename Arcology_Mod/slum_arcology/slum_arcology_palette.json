@@ -1,42 +1,9 @@
 [
-  {
-    "type": "palette",
-    "id": "slum_arcology_nested_cubes",
-    "nested": {
-      "♠": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♣": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] },
-      "♥": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♦": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] }
-    }
-  },
-  {
-    "type": "palette",
-    "id": "slum_arcology_nested_resident",
-    "nested": {
-      "♠": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♣": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] },
-      "♥": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♦": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] }
-    }
-  },
-  {
-    "type": "palette",
-    "id": "slum_arcology_nested_industry",
-    "nested": {
-      "♠": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♣": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] },
-      "♥": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♦": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] }
-    }
-  },
+
   {
     "type": "palette",
     "id": "slum_arcology_palette",
-    "palettes": [
-      {
-        "distribution": [ [ "slum_arcology_nested_cubes", 5 ], [ "slum_arcology_nested_resident", 4 ], [ "slum_arcology_nested_industry", 1 ] ]
-      }
-    ],
+
     "terrain": {
       ".": "t_open_air",
       ";": "t_thconc_floor_olight",
@@ -95,6 +62,12 @@
       "j": "f_cardboard_box",
       "J": "f_cardboard_wall"
     },
-    "toilets": { "Q": { "amount": [ 15, 50 ] } }
+    "toilets": { "Q": { "amount": [ 15, 50 ] } },
+    "nested": {
+      "♠": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
+      "♣": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] },
+      "♥": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
+      "♦": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] }
+    }	
   }
 ]
