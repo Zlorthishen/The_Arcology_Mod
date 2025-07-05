@@ -247,6 +247,6 @@
       { "point": [ 0, 4, -1 ], "connection": "sewer_tunnel", "from": [ 0, 3, -1 ] },
       { "point": [ 4, 3, -1 ], "connection": "sewer_tunnel", "from": [ 3, 3, -1 ] }
     ],
-    "flags": [ "UNIQUE", "URBAN" ]
+    "flags": [ "URBAN" ]
   }
 ]
