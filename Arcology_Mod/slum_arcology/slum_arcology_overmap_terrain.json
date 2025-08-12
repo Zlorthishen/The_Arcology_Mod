@@ -156,7 +156,22 @@
   },
   {
     "type": "overmap_terrain",
+    "id": [ "slum_arcology_z6_a", "slum_arcology_z6_b", "slum_arcology_z6_c", "slum_arcology_z6_d" ],
+    "name": "Peach Trees",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99
+  },  {
+    "type": "overmap_terrain",
     "id": [ "slum_arcology_z7_a", "slum_arcology_z7_b", "slum_arcology_z7_c", "slum_arcology_z7_d" ],
+    "name": "Peach Trees",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "slum_arcology_z8_a", "slum_arcology_z8_b", "slum_arcology_z8_c", "slum_arcology_z8_d" ],
     "name": "Peach Trees",
     "sym": "┼",
     "color": "i_light_red",

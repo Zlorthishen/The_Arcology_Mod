@@ -386,7 +386,7 @@
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 4 },
         { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 3, "y": 1 }
       ],
-      "terrain": { "#": "t_strconc_wall", "+": "t_door_metal_c", " ": "t_linoleum_gray", "L": "t_linoleum_gray", ";": "t_linoleum_gray" },
+      "terrain": { "#": "t_strconc_wall", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
       "toilets": { ";": {  } }
     }
   },
@@ -439,7 +439,86 @@
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 0 },
         { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 3, "y": 3 }
       ],
-      "terrain": { "#": "t_strconc_wall", "+": "t_door_metal_c", " ": "t_linoleum_gray", "L": "t_linoleum_gray", ";": "t_linoleum_gray" },
+      "terrain": { "#": "t_strconc_wall", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
+      "toilets": { ";": {  } }
+    }
+  },
+  
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x6_ring_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "   #;#",
+        "   + #",
+        "   ###",
+        "     #",
+        "     #",
+        "######"
+      ],
+      "place_nested": [
+        { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 2 },
+        { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 0 },
+        { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 3, "y": 3 }
+      ],
+      "terrain": { "#": "t_strconc_wall", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
+      "toilets": { ";": {  } }
+    }
+  },
+  
+    
+  
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x12_outer_left_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "  #  #",
+        "  #  #",
+        "  #  #",
+        "#+##+#",
+        "      ",
+        "######"
+      ],
+      "place_nested": [
+        { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 0, "y": 0 },
+        { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 0, "y": 3 }
+      ],
+      "terrain": {
+        "#": "t_strconc_wall",
+        "+": "t_door_metal_c",
+        " ": "t_linoleum_white",
+        "L": "t_linoleum_white",
+        ";": "t_linoleum_white"
+      },
+      "toilets": { ";": {  } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "slum_arcology_6x12_outer_right_rooms",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "   #;#",
+        "   # #",
+        "   #+#",
+        "     #",
+        "     #",
+        "##+###"
+      ],
+      "place_nested": [
+        { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 2 },
+        { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 0 },
+        { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 3, "y": 3 }
+      ],
+      "terrain": { "#": "t_strconc_wall", "+": "t_door_metal_c", " ": "t_linoleum_white", "L": "t_linoleum_white", ";": "t_linoleum_white" },
       "toilets": { ";": {  } }
     }
   }

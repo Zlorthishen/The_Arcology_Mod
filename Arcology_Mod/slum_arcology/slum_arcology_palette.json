@@ -16,6 +16,7 @@
       "d": "t_sidewalk_ramp_down_high",
       ",": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass_long" ],
       "©": "t_atm",
+      "®": "t_atm",
       "│": "t_wall_w",
       "!": "t_door_metal_c",
       "#": "t_strconc_wall",
