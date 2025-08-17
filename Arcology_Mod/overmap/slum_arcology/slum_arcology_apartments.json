@@ -352,7 +352,7 @@
         "  + S#",
         "  #s;#"
       ],
-      "furniture": { "S": "f_shower", "s": "f_sink"},	 
+      "furniture": { "S": "f_shower", "s": "f_sink" },
       "place_nested": [
         { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 1 },
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 4 },
@@ -384,8 +384,7 @@
         "  + S#",
         "  #s;#"
       ],
-
-      "furniture": { "S": "f_shower", "s": "f_sink"},	 	  
+      "furniture": { "S": "f_shower", "s": "f_sink" },
       "place_nested": [
         { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 1 },
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 4 },
@@ -418,8 +417,7 @@
         "     #",
         "##+###"
       ],
-
-      "furniture": { "T": "f_table","S": "f_shower", "s": "f_sink"},	 	  
+      "furniture": { "T": "f_table", "S": "f_shower", "s": "f_sink" },
       "place_nested": [
         { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 2 },
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 0 },
@@ -450,8 +448,7 @@
         "     #",
         "##+###"
       ],
-	  
-      "furniture": { "S": "f_shower", "s": "f_sink"},	 
+      "furniture": { "S": "f_shower", "s": "f_sink" },
       "place_nested": [
         { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 2 },
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 0 },
@@ -484,8 +481,7 @@
         "  + S#",
         "######"
       ],
-	  
-      "furniture": { "S": "f_shower", "s": "f_sink"},	 
+      "furniture": { "S": "f_shower", "s": "f_sink" },
       "place_nested": [
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 0, "y": 0 },
         { "chunks": [ "slum_arcology_2x2_sleep" ], "x": 3, "y": 0 }
@@ -517,7 +513,6 @@
         "      ",
         "######"
       ],
-	  
       "furniture": { "B": "f_makeshift_bed", "T": "f_table", "D": "f_beaded_door" },
       "terrain": {
         "#": "t_strconc_wall",
@@ -545,7 +540,6 @@
         "      ",
         "######"
       ],
-	  
       "furniture": { "B": "f_makeshift_bed", "T": "f_table", "D": "f_beaded_door" },
       "terrain": {
         "#": "t_strconc_wall",
@@ -573,7 +567,6 @@
         "      ",
         "######"
       ],
-	  
       "furniture": { "B": "f_makeshift_bed", "T": "f_table" },
       "terrain": {
         "#": "t_strconc_wall",
@@ -600,7 +593,6 @@
         "      ",
         "######"
       ],
-	  
       "furniture": { "B": "f_bunkbed", "T": "f_table" },
       "terrain": {
         "#": "t_strconc_wall",
@@ -630,7 +622,7 @@
         { "chunks": [ "slum_arcology_3x3_space" ], "x": 0, "y": 0 },
         { "chunks": [ "slum_arcology_2x2_cooking" ], "x": 3, "y": 3 }
       ],
-      "furniture": { "S": "f_shower", "s": "f_sink"},	  
+      "furniture": { "S": "f_shower", "s": "f_sink" },
       "terrain": {
         "#": "t_strconc_wall",
         "+": "t_door_metal_c",

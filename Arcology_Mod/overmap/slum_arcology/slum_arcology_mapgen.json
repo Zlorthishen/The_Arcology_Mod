@@ -1,16 +1,10 @@
 [
-
-
-
-
-
-
   {
     "type": "mapgen",
     "method": "json",
     "om_terrain": "slum_arcology_z-1_ramp",
     "object": {
-	  "fill_ter": "t_rock",
+      "fill_ter": "t_rock",
       "rows": [
         "                        ",
         "                        ",
@@ -37,29 +31,15 @@
         "            #''''''''''#",
         "            #''''''''''#"
       ],
-	  
       "palettes": [ "slum_arcology_palette" ],
-      "terrain": { 
-      "u": "t_sidewalk_ramp_up_low",
-      "U": "t_sidewalk_ramp_up_high",
-      "D": "t_sidewalk_ramp_down_low",
-      "d": "t_sidewalk_ramp_down_high"
-	  }
+      "terrain": {
+        "u": "t_sidewalk_ramp_up_low",
+        "U": "t_sidewalk_ramp_up_high",
+        "D": "t_sidewalk_ramp_down_low",
+        "d": "t_sidewalk_ramp_down_high"
+      }
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "type": "mapgen",
     "method": "json",
@@ -172,8 +152,7 @@
         "################################################################################################"
       ],
       "palettes": [ "slum_arcology_palette" ],
-
-      "items": { "'": { "item": "floor_trash", "chance": 1, "repeat": [ 1, 3 ] } },	  
+      "items": { "'": { "item": "floor_trash", "chance": 1, "repeat": [ 1, 3 ] } },
       "terrain": { "'": "t_pavement", "N": "t_machinery_heavy", "n": "t_machinery_light" },
       "liquids": { "T": { "liquid": "water_sewage", "amount": [ 1, 25 ] }, "t": { "liquid": "water_sewage", "amount": [ 2, 5 ] } },
       "furniture": { "V": "f_vending_o", "T": "f_standing_tank", "Y": "f_washer", "y": "f_dryer" }
@@ -214,14 +193,14 @@
         ":##  ^     ^^          ^^          ^^                      ^^          ^                        "
       ],
       "palettes": [ "slum_arcology_palette" ],
-      "place_monsters": [{ "monster": "GROUP_MI-FERAL_HUMANS", "x": [ 0, 0 ], "y": [ 94, 23 ], "density": 0.2 }],	  
+      "place_monsters": [ { "monster": "GROUP_MI-FERAL_HUMANS", "x": [ 0, 0 ], "y": [ 94, 23 ], "density": 0.2 } ],
       "items": { " ": { "item": "floor_trash", "chance": 1 } }
     }
   },
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ [ "slum_arcology_z1_a", "slum_arcology_z1_b", "slum_arcology_z1_c", "slum_arcology_z1_d" ] ],
+    "om_terrain": [ [ "slum_arcology_z7_a", "slum_arcology_z7_b", "slum_arcology_z7_c", "slum_arcology_z7_d" ] ],
     "weight": 1,
     "object": {
       "fill_ter": "t_thconc_floor",
@@ -259,7 +238,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ [ "slum_arcology_z6_a", "slum_arcology_z6_b", "slum_arcology_z6_c", "slum_arcology_z6_d" ] ],
+    "om_terrain": [ [ "slum_arcology_z2_a", "slum_arcology_z2_b", "slum_arcology_z2_c", "slum_arcology_z2_d" ] ],
     "weight": 1,
     "object": {
       "fill_ter": "t_thconc_floor",
@@ -303,7 +282,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ [ "slum_arcology_z7_a", "slum_arcology_z7_b", "slum_arcology_z7_c", "slum_arcology_z7_d" ] ],
+    "om_terrain": [ [ "slum_arcology_z1_a", "slum_arcology_z1_b", "slum_arcology_z1_c", "slum_arcology_z1_d" ] ],
     "weight": 1,
     "object": {
       "fill_ter": "t_thconc_floor",

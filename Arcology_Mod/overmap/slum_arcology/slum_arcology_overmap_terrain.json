@@ -18,20 +18,20 @@
   },
   {
     "type": "overmap_terrain",
-    "id": ["slum_arcology_z0_ramp" ],
+    "id": [ "slum_arcology_z0_ramp" ],
     "name": "Peach Trees",
     "sym": "V",
     "color": "i_light_red",
     "see_cost": 5
-  }, 
+  },
   {
     "type": "overmap_terrain",
-    "id": ["slum_arcology_z-1_ramp" ],
+    "id": [ "slum_arcology_z-1_ramp" ],
     "name": "Peach Trees",
     "sym": "^",
     "color": "i_light_red",
     "see_cost": 99
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": [
@@ -100,7 +100,15 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "slum_arcology_z6_a", "slum_arcology_z6_b", "slum_arcology_z6_c", "slum_arcology_z6_d" ],
+    "id": [ "slum_arcology_z2_a", "slum_arcology_z2_b", "slum_arcology_z2_c", "slum_arcology_z2_d" ],
+    "name": "Peach Trees",
+    "sym": "┼",
+    "color": "i_light_red",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "slum_arcology_z1_a", "slum_arcology_z1_b", "slum_arcology_z1_c", "slum_arcology_z1_d" ],
     "name": "Peach Trees",
     "sym": "┼",
     "color": "i_light_red",
@@ -113,7 +121,7 @@
     "sym": "┼",
     "color": "i_light_red",
     "see_cost": 99
-  },
+  }
   {
     "type": "overmap_terrain",
     "id": [ "slum_arcology_z8_a", "slum_arcology_z8_b", "slum_arcology_z8_c", "slum_arcology_z8_d" ],
