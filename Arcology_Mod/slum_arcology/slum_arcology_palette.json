@@ -1,9 +1,7 @@
 [
-
   {
     "type": "palette",
     "id": "slum_arcology_palette",
-
     "terrain": {
       ".": "t_open_air",
       ";": "t_thconc_floor_olight",
@@ -63,12 +61,6 @@
       "j": "f_cardboard_box",
       "J": "f_cardboard_wall"
     },
-    "toilets": { "Q": { "amount": [ 15, 50 ] } },
-    "nested": {
-      "♠": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♣": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] },
-      "♥": { "chunks": [ "slum_arcology_6x6_inner_rooms" ] },
-      "♦": { "chunks": [ "slum_arcology_6x6_outer_rooms" ] }
-    }	
+    "toilets": { "Q": { "amount": [ 15, 50 ] } }
   }
 ]

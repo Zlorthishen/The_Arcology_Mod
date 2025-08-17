@@ -31,8 +31,11 @@
       { "point": [ -2, 0, 0 ], "overmap": "slum_arcology_outer_parking_west" },
       { "point": [ -2, -1, 0 ], "overmap": "slum_arcology_outer_parking_west" },
       { "point": [ -2, -2, 0 ], "overmap": "slum_arcology_outer_parking_corner_west" },
-      { "point": [ 0, -1, 0 ], "overmap": "slum_arcology_parking_1_north" },
-      { "point": [ 1, -1, 0 ], "overmap": "slum_arcology_parking_2_north" },
+	  
+	  
+      { "point": [ 0, -1, 0 ], "overmap": "slum_arcology_z0_ramp_north" },
+      { "point": [ 1, -1, 0 ], "overmap": "slum_arcology_z0_ramp_north" },
+	  
       { "point": [ 2, -1, 0 ], "overmap": "slum_arcology_parking_3_north" },
       { "point": [ 3, -1, 0 ], "overmap": "slum_arcology_parking_4_north" },
       { "point": [ 4, -1, 0 ], "overmap": "slum_arcology_parking_5_north" },
@@ -51,6 +54,11 @@
       { "point": [ -1, 1, 0 ], "overmap": "slum_arcology_parking_3_west" },
       { "point": [ -1, 2, 0 ], "overmap": "slum_arcology_parking_2_west" },
       { "point": [ -1, 3, 0 ], "overmap": "slum_arcology_parking_1_west" },
+	  
+	  
+      { "point": [ 0, -1, -1 ], "overmap": "slum_arcology_z-1_ramp_north" },
+      { "point": [ 1, -1, -1 ], "overmap": "slum_arcology_z-1_ramp_north" },
+	  
       { "point": [ 0, 0, -1 ], "overmap": "slum_arcology_z-1_1_1_north" },
       { "point": [ 0, 1, -1 ], "overmap": "slum_arcology_z-1_1_2_north" },
       { "point": [ 0, 2, -1 ], "overmap": "slum_arcology_z-1_1_3_north" },
@@ -179,9 +187,6 @@
       { "point": [ 1, 3, 6 ], "overmap": "slum_arcology_z6_c_south" },
       { "point": [ 2, 3, 6 ], "overmap": "slum_arcology_z6_b_south" },
       { "point": [ 3, 3, 6 ], "overmap": "slum_arcology_z6_a_south" },
-	  
-	  
-	  
       { "point": [ 0, 0, 7 ], "overmap": "slum_arcology_z7_a_north" },
       { "point": [ 1, 0, 7 ], "overmap": "slum_arcology_z7_b_north" },
       { "point": [ 2, 0, 7 ], "overmap": "slum_arcology_z7_c_north" },
@@ -198,8 +203,6 @@
       { "point": [ 1, 3, 7 ], "overmap": "slum_arcology_z7_c_south" },
       { "point": [ 2, 3, 7 ], "overmap": "slum_arcology_z7_b_south" },
       { "point": [ 3, 3, 7 ], "overmap": "slum_arcology_z7_a_south" },
-	  
-	  
       { "point": [ 0, 0, 8 ], "overmap": "slum_arcology_z8_a_north" },
       { "point": [ 1, 0, 8 ], "overmap": "slum_arcology_z8_b_north" },
       { "point": [ 2, 0, 8 ], "overmap": "slum_arcology_z8_c_north" },
@@ -216,11 +219,6 @@
       { "point": [ 1, 3, 8 ], "overmap": "slum_arcology_z8_c_south" },
       { "point": [ 2, 3, 8 ], "overmap": "slum_arcology_z8_b_south" },
       { "point": [ 3, 3, 8 ], "overmap": "slum_arcology_z8_a_south" },
-	  
-	 
-	  
-	  
-	  
       { "point": [ 0, 0, 9 ], "overmap": "slum_arcology_z9_1_1_north" },
       { "point": [ 0, 1, 9 ], "overmap": "slum_arcology_z9_1_2_north" },
       { "point": [ 0, 2, 9 ], "overmap": "slum_arcology_z9_1_3_north" },

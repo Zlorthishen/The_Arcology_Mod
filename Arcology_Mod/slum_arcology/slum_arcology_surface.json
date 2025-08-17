@@ -1,4 +1,54 @@
 [
+
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "slum_arcology_z0_ramp",
+    "object": {
+	  "fill_ter": "t_pavement",
+      "rows": [
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "________________________",
+        "____________=__________=",
+        "____________=dddddddddd=",
+        "____________=DDDDDDDDDD=",
+        "_`___`______============",
+        "_`___`__________________",
+        "_`___`__________________",
+        "````````````````````````",
+        "                        ",
+        "  T  T  T  T  T  T  T  T"
+      ],
+	  
+      "palettes": [ "slum_arcology_palette" ],
+      "terrain": { 
+	  "=": "t_chainfence",
+      "_": "t_pavement",
+      "`": "t_pavement_y",
+      "T": "t_tree_dead",	  
+      "u": "t_sidewalk_ramp_up_low",
+      "U": "t_sidewalk_ramp_up_high",
+      "D": "t_sidewalk_ramp_down_low",
+      "d": "t_sidewalk_ramp_down_high"
+	  }
+    }
+  },
+
+
+
   {
     "type": "mapgen",
     "method": "json",
@@ -158,15 +208,7 @@
         "M": [ "t_manhole_cover", "t_manhole_cover", "t_pavement" ]
       },
       "place_vehicles": [
-        {
-          "vehicle": "motorcycle_enduro",
-          "x": 4,
-          "y": 16,
-          "rotation": [ 90, 270 ],
-          "chance": 100,
-          "fuel": 0,
-          "status": 0
-        },
+        { "vehicle": "motorcycle_enduro", "x": 4, "y": 16, "rotation": [ 90, 270 ], "chance": 100, "fuel": 0, "status": 0 },
         {
           "vehicle": "city_vehicles",
           "x": 11,
