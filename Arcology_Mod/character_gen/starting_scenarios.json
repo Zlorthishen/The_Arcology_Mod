@@ -1,3 +1,18 @@
 [
-
+  {
+    "type": "start_location",
+    "id": "s_loc_slum_arcology",
+    "name": "Arclogy",
+    "terrain": [ "slum_arcology_z1_d", "slum_arcology_z2_d"  ]
+  },
+  {
+    "type": "scenario",
+    "id": "arcology_shut_in",
+    "name": "Arcology Shut In",
+    "points": -1,
+    "description": "When the cataclysm came, you were inside of a new Arcology™ building, which prompty closed its armored doors and sealed all residents inside",
+    "allowed_locs": [ "s_loc_slum_arcology" ],
+    "flags": [ "CITY_START" ],
+    "start_name": "In Town"
+  }
 ]
